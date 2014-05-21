@@ -1,0 +1,305 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*.clear{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}*/
+/*FONTFACE
+======================*/
+@font-face {
+    font-family: Aleo;
+    src: url(fonts/Aleo-Regular.otf);
+    font-weight:400;
+}
+
+
+/* BODY
+======================*/
+.wrapper{
+    display: block;
+    width:100%;
+    float:left;
+    background: #ffffff;
+}
+
+body{
+    font-family:'Helvetica',Arial,sans-serif;
+    background-image: url("http://kzoominder.com/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover -100px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.container{
+    width:1024px;
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+}
+#content{
+    width:100%;
+    background-color:#FFFFFF;
+    display: block;
+    float: left;
+    /*min-height:400px;*/
+}
+
+h3{
+    font-family: Aleo;
+    font-size: 28px;
+    margin-bottom:20px;
+    margin-top:40px;
+    
+}
+
+/* HEADER
+======================*/
+header{
+    background-image: url("http://kzoominder.com/images/Topbar.png");
+    background-repeat: repeat-x;
+    background-position: 0px -63px;
+}
+h1, header h2{
+    display: block;
+    float: left;
+    text-indent: -9999px;
+}
+img.logo{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:50px;
+    display:block;
+}
+img.tagline{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+}
+header input{
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+    margin-top:30px;
+    text-align: center;
+}
+header img.or{
+    width:75px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    margin-top:20px;
+    top:20px;
+}
+
+/*FOOTER
+=========================*/
+footer{
+    font-family: Aleo;
+    min-height:300px;
+    background-color: #121212;
+    color:#e1e1e1;
+}
+
+
+.half{
+    width:490px;
+    margin-right:22px;
+    float:left;
+    display: block;
+}
+.half2{
+    float:left;
+    width:512px;
+    display: block;
+    
+}
+.copy{
+    clear:both;
+    text-align: center;
+    display: block;
+    padding-top:40px;
+}
+/* FORM
+=========================*/
+
+input, select, option{
+    width:400px;
+    height:40px;
+    border-radius: 7px;
+    box-shadow:inset p1x 1px 10px #000000;
+        margin-bottom: 20px;
+}
+form{
+    width:100%;
+    display:block;
+}
+
+
+/* MAIN CONTENT
+ =====================*/
+#content .container h3{
+    text-align: center;
+}
+
+#content form input, #content form select{
+    margin-left:54px;
+    margin-right: auto;
+}
+
+/* SEARCH RESULTS
+=========================*/
+.search h2{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.search .heading{
+    font-weight: bold;
+}
+.search .results{
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    background-color: #ffffff;
+    margin-bottom: 24px;
+}
+.search .result{
+    width:100%;
+    display:block;
+    float: left;
+    height:24px;
+    background-color: #e1e1e1;
+    margin-bottom:24px;
+    padding:3px;
+}
+.search .result span{
+    display:inline-block;
+    float: left;
+    margin-right:20px;
+}
+.search .result span.street, .search .result span.type{
+    width: 200px;
+}
+.search .result span.weekday{
+    width:150px;
+}
+
+/*Profile Pages
+ *=====================*/
+h4{
+    text-decoration: underline;
+}
